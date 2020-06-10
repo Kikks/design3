@@ -65,11 +65,25 @@ main{
     width: 100%;
 }
 
+@media only screen and (max-width: 37.5em){
+    .section__img{
+        width: auto;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
 .section-results{
     width: 100%;
     background-color: var(--blue);
     color: var(--white);
     padding: 10rem;
+}
+
+@media only screen and (max-width: 56.5em){
+    .section-results h1 span{
+        display: inline;
+    }
 }
 
 @media only screen and (max-width: 56.5em){
@@ -202,7 +216,6 @@ main{
 /* components */
 .sidebar{
     position: fixed;
-    transform: translateY(-100vh);
     transition: var(--transition);
     height: 100vh;
     width: 100%;
@@ -213,6 +226,13 @@ main{
     align-content: center;
     background-color: var(--white);
     z-index: 10;
+}
+
+.sidebar--closed{
+    transform: translateY(-100vh);
+}
+.sidebar--opened{
+    transform: translateY(0);
 }
 
 .sidebar__list{
@@ -420,7 +440,7 @@ main{
 
 @media only screen and (max-width: 37.5em){
     .header{
-        padding: 10rem 0;
+        padding: 5rem 0;
     }
 }
 
@@ -505,6 +525,12 @@ main{
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
+@media only screen and (max-width: 37.5em){
+    .header__cta{
+        grid-template-columns: 1fr;
+    }
+} 
 
 
 .header__cta-content{
@@ -739,6 +765,13 @@ main{
     justify-items: center;
     align-content: center;
     gap: 2rem;
+}
+
+@media only screen and (max-width: 56.5em){
+    .result{
+        justify-items: center;
+        text-align: center;
+    }
 }
 
 .result__number{
