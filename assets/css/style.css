@@ -825,8 +825,8 @@ main{
 .footer a p:link,
 .footer a p:visited{
     font: inherit;
-    color: var(--blue);
-    font-size: 2.5rem;
+    color: var(--blue) !important;
+    font-size: 2rem;
 }
 
 @media only screen and (max-width: 56.5em){
