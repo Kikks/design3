@@ -811,7 +811,7 @@ main{
     width: 100%;
     padding: 2rem;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     justify-content: space-between;
     justify-items: center;
     align-items: center;
@@ -821,7 +821,7 @@ main{
     .footer{
         justify-items: center;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
     }
 
     .footer a{
