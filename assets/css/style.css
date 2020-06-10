@@ -822,8 +822,7 @@ main{
     align-items: center;
 }
 
-.footer__link:link,
-.footer__link:visited{
+.footer__link{
     font: inherit;
     color: var(--blue) !important;
     font-size: 2rem;
