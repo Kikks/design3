@@ -822,9 +822,13 @@ main{
     align-items: center;
 }
 
-.footer__link{
+.footer__link-box:link,
+.footer__link-box:visited{
     font: inherit;
-    color: var(--blue) !important;
+    text-decoration: none;
+    color: var(--blue);
+}
+.footer__link{
     font-size: 2rem;
 }
 
