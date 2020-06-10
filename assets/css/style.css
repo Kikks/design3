@@ -372,6 +372,7 @@ main{
 
 
 .dropdown-toggle{
+    border-radius: .2rem;
     height: .3rem;
     position: absolute;
     top: 50%;
@@ -409,7 +410,7 @@ main{
 }
 
 @media only screen and (min-width: 56.5em){
-    .dropdown-toggle{
+    .dropdown{
         display: none;
     }
 }
