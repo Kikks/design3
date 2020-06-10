@@ -191,6 +191,7 @@ main{
 }
 
 .btn--transparent{
+    border: .2rem solid var(--white) !important;
     color: var(--white);
 }
 
