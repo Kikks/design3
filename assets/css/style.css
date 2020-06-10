@@ -822,18 +822,18 @@ main{
     align-items: center;
 }
 
+@media only screen and (max-width: 56.5em){
+    .footer .nav__logo-box{
+        margin-bottom: 2rem;
+    }
+}
+
 .footer__link-box:link,
 .footer__link-box:visited{
     font: inherit;
     text-decoration: none;
     color: var(--blue);
     text-align: center;
-}
-
-@media only screen and (max-width: 56.5em){
-    .footer__link-box{
-        margin-bottom: 2rem;
-    }
 }
 
 .footer__link{
