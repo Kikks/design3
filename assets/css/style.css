@@ -827,9 +827,11 @@ main{
     font: inherit;
     text-decoration: none;
     color: var(--blue);
+    text-align: center;
 }
 .footer__link{
     font-size: 2rem;
+    display: block;
 }
 
 .footer__link:hover{
