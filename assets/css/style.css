@@ -822,8 +822,8 @@ main{
     align-items: center;
 }
 
-.footer a p:link,
-.footer a p:visited{
+.footer a h1:link,
+.footer a h1:visited{
     font: inherit;
     color: var(--blue) !important;
     font-size: 2rem;
